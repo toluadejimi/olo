@@ -1,47 +1,47 @@
 <?php
 
 return [
-    'name' => 'LaravelPWA',
+    'name' => 'KONNET',
     'manifest' => [
-        'name' => env('APP_NAME', 'My PWA App'),
-        'short_name' => 'PWA',
+        'name' => env('APP_NAME', 'KONNET'),
+        'short_name' => 'KONNET.ME',
         'start_url' => '/',
-        'background_color' => '#ffffff',
-        'theme_color' => '#000000',
+        'background_color' => '#FF50A2',
+        'theme_color' => '#FF50A2',
         'display' => 'standalone',
         'orientation'=> 'any',
         'status_bar'=> 'black',
         'icons' => [
             '72x72' => [
-                'path' => '/images/icons/icon-72x72.png',
+                'path' => '/images/pwa/72.png',
                 'purpose' => 'any'
             ],
             '96x96' => [
-                'path' => '/images/icons/icon-96x96.png',
+                'path' => '/images/pwa/96.png',
                 'purpose' => 'any'
             ],
             '128x128' => [
-                'path' => '/images/icons/icon-128x128.png',
+                'path' => '/images/pwa/128.png',
                 'purpose' => 'any'
             ],
             '144x144' => [
-                'path' => '/images/icons/icon-144x144.png',
+                'path' => '/images/pwa/144.png',
                 'purpose' => 'any'
             ],
             '152x152' => [
-                'path' => '/images/icons/icon-152x152.png',
+                'path' => '/images/pwa/152.png',
                 'purpose' => 'any'
             ],
             '192x192' => [
-                'path' => '/images/icons/icon-192x192.png',
+                'path' => '/images/icons/192.png',
                 'purpose' => 'any'
             ],
             '384x384' => [
-                'path' => '/images/icons/icon-384x384.png',
+                'path' => '/images/icons/384.png',
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/icon-512x512.png',
+                'path' => '/images/icons/512.png',
                 'purpose' => 'any'
             ],
         ],
@@ -59,11 +59,11 @@ return [
         ],
         'shortcuts' => [
             [
-                'name' => 'Shortcut Link 1',
-                'description' => 'Shortcut Link 1 Description',
-                'url' => '/shortcutlink1',
+                'name' => 'KOMMET',
+                'description' => 'Home',
+                'url' => '/',
                 'icons' => [
-                    "src" => "/images/icons/icon-72x72.png",
+                    "src" => "/images/icons/72.png",
                     "purpose" => "any"
                 ]
             ],

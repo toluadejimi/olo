@@ -4,8 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233df5bc-6f66-4198-934e-426f7a401b11" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="233df5bc-6f66-4198-934e-426f7a401b11" name="Changes" comment="dd">
+      <change afterPath="$PROJECT_DIR$/config/laravelpwa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1125x2436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1242x2208.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1242x2688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1536x2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1668x2224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-1668x2388.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-2048x2732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-640x1136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-750x1334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/splash-828x1792.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelpwa/meta.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelpwa/offline.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Http/Controllers/LaravelPWAController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Http/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Providers/LaravelPWAServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Services/ManifestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Services/MetaService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/Tests/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1125x2436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1242x2208.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1242x2688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1536x2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1668x2224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-1668x2388.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-2048x2732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-640x1136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-750x1334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/images/icons/splash-828x1792.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/assets/js/serviceworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/database/migrations/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/database/seeders/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/module.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/resources/views/meta.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/resources/views/offline.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/silviolleite/laravelpwa/start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pwa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,12 +209,16 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2mm2dEkL1NnXPWwyyhQRyZFbdnJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -181,11 +252,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727667517779</updated>
-      <workItem from="1727667518947" duration="12338000" />
+      <workItem from="1727667518947" duration="14839000" />
     </task>
+    <task id="LOCAL-00001" summary="dd">
+      <option name="closed" value="true" />
+      <created>1727690645289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727690645289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="dd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd" />
   </component>
 </project>

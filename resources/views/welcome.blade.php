@@ -33,20 +33,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="manifest" href="{{url('')}}/assets/manifest.json">
-    <meta name="theme-color" content="#FF62AB">
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/serviceworker.js')
-                .then(function(registration) {
-                    console.log('Service Worker registered with scope:', registration.scope);
-                }).catch(function(error) {
-                console.log('Service Worker registration failed:', error);
-            });
-        }
-    </script>
+    @include('laravelpwa::meta')
 
-{{--    <link rel="manifest" href="{{url('')}}/assets/manifest.json">--}}
+
+    {{--    <link rel="manifest" href="{{url('')}}/assets/manifest.json">--}}
 {{--    <meta name="theme-color" content="#007bff">--}}
 {{--    <script>--}}
 {{--        if ('serviceWorker' in navigator) {--}}
