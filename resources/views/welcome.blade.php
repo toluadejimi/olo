@@ -72,7 +72,7 @@
                         <div class="swiper-slide">
                             <div class="slide-info">
                                 <div class="started">
-                                    <h2 class="title mb-1">Start Your Dating Story</h2>
+                                    <h2 class="title mb-1">Konnet.Me</h2>
                                     <p>Your companion for meaningful connections</p>
                                 </div>
                             </div>
