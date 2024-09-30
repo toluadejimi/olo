@@ -5,7 +5,7 @@
     <!-- Title -->
     <title>Konnet - wey sure</title>
 
-    @include('laravelpwa::meta')
+    @laravelPWA
 
 
     <!-- Meta -->
