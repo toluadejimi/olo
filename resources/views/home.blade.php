@@ -4,9 +4,6 @@
     <!-- Page Content Start -->
 
 
-
-
-
     <div class="page-content space-top p-b65">
         <div class="container fixed-full-area">
             <div class="dzSwipe_card-cont dz-gallery-slider">
